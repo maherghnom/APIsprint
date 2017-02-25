@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "The purpose of this sprint to assure your understanding of composing a RESTful API. You will be using Express to implement a Nodejs server which communicates with your Mongo DB. You will be using Mongoose to make all queries on the Mongo DB. Make sure you understand everything in your code because you will have a check in with each instructor. Two check ins before your code is complete and then one final one where you will use  RoboMongo and Postman to show all six types of requests working.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maherghnom/APIsprint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maherghnom/APIsprint/issues"
+  },
+  "homepage": "https://github.com/maherghnom/APIsprint#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1"
+  }
+}
